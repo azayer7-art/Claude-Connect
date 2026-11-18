@@ -381,6 +381,7 @@ def run():
     st = load_state()
     cfg = rj(os.path.join(T, "config.json"), {}) or {}
     log("run start. Cash $%.2f, open: %s" % (cash(), st["open"]["symbol"] if st["open"] else "none"))
+    git_sync("run start %s" % now_ny().strftime("%Y-%m-%d %H:%M"))
     last_scan = 0.0
     while not _stop:
         t = now_ny()
