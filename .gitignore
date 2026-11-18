@@ -3,3 +3,4 @@
 # environment variable, and tools/paper_trader.py refuses to commit if it finds it.
 trader/*.tmp
 trader/paper/lock
+__pycache__/
