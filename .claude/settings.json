@@ -13,7 +13,14 @@
       "mcp__alpaca__close_all_positions",
       "mcp__alpaca__cancel_all_orders",
       "mcp__alpaca__exercise_options_position",
-      "mcp__alpaca__do_not_exercise_options_position"
+      "mcp__alpaca__do_not_exercise_options_position",
+      "mcp__Interactive_Brokers_IBKR__create_order_instruction",
+      "mcp__Interactive_Brokers_IBKR__delete_order_instruction",
+      "mcp__Interactive_Brokers_IBKR__submit_order",
+      "mcp__Interactive_Brokers_IBKR__modify_order",
+      "mcp__Interactive_Brokers_IBKR__cancel_order",
+      "mcp__Interactive_Brokers_IBKR__answer_order_question",
+      "mcp__Interactive_Brokers_IBKR__preview_order"
     ]
   }
 }
