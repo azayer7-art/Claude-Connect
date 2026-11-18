@@ -4,3 +4,4 @@
 trader/*.tmp
 trader/paper/lock
 __pycache__/
+trader/backtest/cache/
