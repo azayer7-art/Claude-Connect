@@ -39,20 +39,31 @@ spec.loader.exec_module(scan)
 BUDGET, CAP_PCT, BUFFER_PCT, MAX_LOSS = 100.0, 75.0, 10.0, 5.0
 
 
+SCREENS = ("most_actives", "day_gainers", "day_losers", "small_cap_gainers", "aggressive_small_caps",
+           "growth_technology_stocks", "undervalued_growth_stocks", "most_shorted_stocks")
+
+
 def pick_symbols(top, lo, hi, pause):
-    syms = [l.split("|")[0] for l in open(os.path.join(ROOT, "trader", "universe.txt")) if l.strip()]
-    data, errors = scan.fetch_spark(syms, "5d", "1d", pause)
-    rows = []
-    for s, ser in data.items():
-        c = [x for x in ser.get("c", []) if x]
-        v = [x for x in ser.get("v", []) if x]
-        if not c or not v:
-            continue
-        price, dv = c[-1], sum(v) / len(v) * c[-1]
-        if lo <= price <= hi:
-            rows.append((dv, s, price))
-    rows.sort(reverse=True)
-    return [(s, p, dv) for dv, s, p in rows[:top]]
+    """Yahoo's predefined lists, merged; ranked by 3-month average dollar volume.
+    Biased toward what is active lately, which is also what the live scanner sees."""
+    seen = {}
+    for scr in SCREENS:
+        for start in (0, 100, 200):
+            try:
+                d = json.loads(scan.yahoo_get("/v1/finance/screener/predefined/saved?scrIds=%s&count=100&start=%d"
+                                              % (scr, start)))
+                quotes = d["finance"]["result"][0]["quotes"]
+            except Exception:
+                break
+            time.sleep(pause)
+            for q in quotes:
+                s, p, v = q.get("symbol"), q.get("regularMarketPrice"), q.get("averageDailyVolume3Month")
+                if s and p and v and q.get("quoteType", "EQUITY") == "EQUITY" and lo <= p <= hi and v >= 1e6:
+                    seen[s] = (p * v, s, p)
+            if len(quotes) < 100:
+                break
+    rows = sorted(seen.values(), reverse=True)[:top]
+    return [(s, p, dv) for dv, s, p in rows]
 
 
 def bars_5m(sym, pause):
@@ -125,7 +136,7 @@ def main():
     ap.add_argument("--max-price", type=float, default=60.0)
     ap.add_argument("--pause", type=float, default=0.3)
     a = ap.parse_args()
-    today = scan.to_eastern(dt.datetime.utcnow()).strftime("%Y-%m-%d")
+    today = scan.to_eastern(dt.datetime.now(dt.timezone.utc).replace(tzinfo=None)).strftime("%Y-%m-%d")
     print("picking the %d most traded stocks priced $%g-$%g..." % (a.top, a.min_price, a.max_price), flush=True)
     picks = pick_symbols(a.top, a.min_price, a.max_price, a.pause)
     print("got %d. Fetching 60 days of 5-minute bars..." % len(picks), flush=True)
@@ -166,7 +177,7 @@ def main():
     variants.sort(key=lambda v: -v["avg_R"])
     os.makedirs(OUT, exist_ok=True)
     with open(os.path.join(OUT, "results.json"), "w") as fh:
-        json.dump({"run_at": dt.datetime.utcnow().isoformat() + "Z", "symbols": [p[0] for p in picks],
+        json.dump({"run_at": dt.datetime.now(dt.timezone.utc).replace(tzinfo=None).isoformat() + "Z", "symbols": [p[0] for p in picks],
                    "sessions_per_symbol": max((len(v) for v in data.values()), default=0),
                    "variants": variants}, fh, indent=1)
     print("\n%-4s %-4s %-6s %7s %6s %7s %8s %7s %7s %10s" % ("stop", "tgt", "until", "trades", "win%",
