@@ -254,7 +254,8 @@ def try_enter(st, hits):
         px = quote(sym)
         if px is None:
             continue
-        rc, plan, err = tool_json("trader-exit/exit.py", "plan", "--entry", "%.4f" % px, "--write")
+        rc, plan, err = tool_json("trader-exit/exit.py", "plan", "--entry", "%.4f" % px,
+                                  "--stop", "or-mid", "--target", "1R", "--write")
         if not plan or rc != 0:
             log("  %s: no plan at %.2f (%s)" % (sym, px, str(err).strip()[-200:]))
             continue
@@ -390,7 +391,8 @@ def run():
             manage_open(st)
             time.sleep(POLL_SEC)
             continue
-        entries_ok = (9 * 60 + 50 <= m < 15 * 60 + 30) and not daily_loss_hit(st, cfg)
+        hh, mm = map(int, str(cfg.get("no_entries_after") or "15:30").split(":"))
+        entries_ok = (9 * 60 + 50 <= m < hh * 60 + mm) and not daily_loss_hit(st, cfg)
         if entries_ok and time.time() - last_scan >= SCAN_EVERY_MIN * 60:
             last_scan = time.time()
             rc, scan, err = tool_json("trader-scanner/scan.py", "orb", "--quiet", "--no-write",
