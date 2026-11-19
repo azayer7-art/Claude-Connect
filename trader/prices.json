@@ -1,5 +1,5 @@
 {
-  "as_of": "2026-11-19T16:24:56Z",
+  "as_of": "2026-11-19T16:34:15Z",
   "source": "yahoo",
   "note": "Delayed quotes for alerts and sizing checks. Your broker's price is the one that fills. detail.fetched is when each price was read.",
   "prices": {
@@ -21,7 +21,7 @@
     "STLA": 3.585,
     "VVV": 36.895,
     "PCG": 13.795,
-    "SPYM": 85.82
+    "SPYM": 85.81
   },
   "detail": {
     "AMRZ": {
@@ -134,9 +134,9 @@
     },
     "SPYM": {
       "prev_close": 85.97,
-      "time": "2026-11-19T16:24:52Z",
+      "time": "2026-11-19T16:34:06Z",
       "source": "yahoo",
-      "fetched": "2026-11-19T16:24:56Z"
+      "fetched": "2026-11-19T16:34:15Z"
     }
   }
 }

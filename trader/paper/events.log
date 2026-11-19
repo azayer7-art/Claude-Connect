@@ -41,3 +41,5 @@
 2026-11-19 10:27:54    PCG: time machine failed (timemachine.py: the plan needs entry_time (the entry bar's close, e.g. 10:15 AM) or entry_bar)
 2026-11-19 10:34:02  took over from run pid 883
 2026-11-19 10:34:04  run start. Cash $100.00, open: none
+2026-11-19 11:34:13  took over from run pid 1724
+2026-11-19 11:34:16  run start. Cash $100.00, open: none

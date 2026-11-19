@@ -29,5 +29,11 @@
       "pnl": 0.0,
       "cash": 100.0
     }
+  },
+  "bench": {
+    "symbol": "SPYM",
+    "date": "2026-11-19",
+    "price": 85.81,
+    "start_cash": 100.0
   }
 }
