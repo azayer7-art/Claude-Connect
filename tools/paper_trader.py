@@ -125,8 +125,25 @@ def cash():
     return float(pf.get("cash", 0))
 
 
+BENCH = "SPYM"   # the buy-and-hold alternative every result is judged against
+
+
+def fee(qty, px):
+    """IBKR Pro Tiered stock commission: $0.0035/share, min $0.35, max 1% of the trade."""
+    return round(min(max(0.0035 * qty, 0.35), 0.01 * qty * px), 2)
+
+
 def record_trade(op, exit_price, reason):
-    pnl = round((exit_price - op["entry"]) * op["qty"], 2)
+    """P/L is recorded NET of both commissions, and the fees come out of paper cash:
+    a strategy is judged on profit per trade after costs, not on its win rate."""
+    gross = round((exit_price - op["entry"]) * op["qty"], 2)
+    fees = round(fee(op["qty"], op["entry"]) + fee(op["qty"], exit_price), 2)
+    pnl = round(gross - fees, 2)
+    pf_path = os.path.join(T, "portfolio.json")
+    pf = rj(pf_path, None)
+    if pf is not None:
+        pf["cash"] = round(float(pf.get("cash", 0)) - fees, 2)
+        wj(pf_path, pf)
     r = round((exit_price - op["entry"]) / op["risk_per_share"], 2) if op["risk_per_share"] else 0
     path = os.path.join(PD, "trades.csv")
     new = not os.path.exists(path)
@@ -134,9 +151,10 @@ def record_trade(op, exit_price, reason):
         w = csv.writer(fh)
         if new:
             w.writerow(["date", "symbol", "qty", "entry_time", "entry", "stop", "target",
-                        "exit_time", "exit", "reason", "pnl_usd", "R", "cash_after"])
+                        "exit_time", "exit", "reason", "gross_usd", "fees_usd", "pnl_usd", "R",
+                        "cash_after"])
         w.writerow([op["date"], op["symbol"], op["qty"], op["entered_at"], op["entry"], op["stop"],
-                    op["target"], now_ny().strftime("%H:%M:%S"), exit_price, reason, pnl, r,
+                    op["target"], now_ny().strftime("%H:%M:%S"), exit_price, reason, gross, fees, pnl, r,
                     round(cash(), 2)])
     return pnl, r
 
@@ -219,7 +237,7 @@ def manage_open(st):
     day["trades"] += 1
     day["wins"] += 1 if pnl > 0 else 0
     day["pnl"] = round(day["pnl"] + pnl, 2)
-    log("EXIT %s %d @ %.2f (%s): P/L $%.2f, %.2fR. Cash $%.2f" % (op["symbol"], op["qty"], exit_px,
+    log("EXIT %s %d @ %.2f (%s): net P/L $%.2f after fees, %.2fR. Cash $%.2f" % (op["symbol"], op["qty"], exit_px,
                                                                  reason, pnl, r, cash()))
     st["open"] = None
     save_state(st)
@@ -336,6 +354,7 @@ def write_journal(st):
     c = cash()
     lines += ["", "Cash now: $%.2f. Trades: %d, wins: %d (%s). Progress to goal: %.4f%%."
               % (c, tot_t, tot_w, ("%.0f%%" % (100.0 * tot_w / tot_t)) if tot_t else "n/a", 100 * c / GOAL), ""]
+    lines += scorecard(st, c)
     with open(os.path.join(PD, "journal.md"), "w") as fh:
         fh.write("\n".join(lines))
 
@@ -388,6 +407,12 @@ def run():
         return
     st = load_state()
     cfg = rj(os.path.join(T, "config.json"), {}) or {}
+    if not st.get("bench"):
+        bpx = quote(BENCH)
+        if bpx:
+            st["bench"] = {"symbol": BENCH, "date": t.strftime("%Y-%m-%d"), "price": bpx,
+                           "start_cash": round(cash(), 2)}
+            save_state(st)
     log("run start. Cash $%.2f, open: %s" % (cash(), st["open"]["symbol"] if st["open"] else "none"))
     git_sync("run start %s" % now_ny().strftime("%Y-%m-%d %H:%M"))
     last_scan = 0.0
@@ -420,6 +445,54 @@ def run():
         log("day done. Cash $%.2f" % cash())
     git_sync("run end %s" % now_ny().strftime("%Y-%m-%d %H:%M"))
     log("run end" + (" (handed over)" if _stop else ""))
+
+
+MIN_TRADES = 30
+
+
+def scorecard(st, c):
+    """What decides whether this goes live: net profit per trade after fees, the size of
+    the losses, and the return against simply holding SPYM over the same days.
+    Win rate is shown last and decides nothing."""
+    rows = []
+    path = os.path.join(PD, "trades.csv")
+    if os.path.exists(path):
+        with open(path) as fh:
+            rows = list(csv.DictReader(fh))
+    out = ["## Scorecard (decides live or not)", ""]
+    n = len(rows)
+    if n:
+        net = [float(x["pnl_usd"]) for x in rows]
+        fees = sum(float(x.get("fees_usd") or 0) for x in rows)
+        rs = [float(x["R"]) for x in rows]
+        losses = [v for v in net if v < 0]
+        wins = [v for v in net if v > 0]
+        out += ["- Net profit per trade after fees: $%+.3f (total $%+.2f over %d trades)" % (sum(net) / n, sum(net), n),
+                "- Average R: %+.3f" % (sum(rs) / n),
+                "- Fees paid: $%.2f (%.0f%% of gross profit)" % (fees, 100 * fees / max(0.01, sum(net) + fees))
+                if sum(net) + fees > 0 else "- Fees paid: $%.2f (gross P/L was not positive)" % fees,
+                "- Largest loss: $%.2f; average loss $%.2f vs average win $%.2f"
+                % (min(net), sum(losses) / len(losses) if losses else 0, sum(wins) / len(wins) if wins else 0),
+                "- Win rate: %.0f%% (for information only; it decides nothing)" % (100.0 * len(wins) / n)]
+    else:
+        out += ["- No completed paper trades yet."]
+    b = st.get("bench")
+    strat_ret = bench_ret = None
+    if b:
+        px = quote(b["symbol"])
+        if px:
+            bench_ret = px / b["price"] - 1
+            strat_ret = c / b["start_cash"] - 1
+            out += ["- Same period, holding %s since %s: %+.2f%%. Paper strategy: %+.2f%%."
+                    % (b["symbol"], b["date"], 100 * bench_ret, 100 * strat_ret)]
+    ok = (n >= MIN_TRADES and sum(float(x["pnl_usd"]) for x in rows) > 0
+          and strat_ret is not None and strat_ret > bench_ret)
+    out += ["", "Verdict: %s" % (
+        "PASSES: positive net profit per trade after fees over %d+ trades AND beat holding %s. "
+        "Worth discussing a small live test." % (MIN_TRADES, BENCH) if ok else
+        "NOT live-ready. Needs %d+ trades, positive net profit per trade after fees, and a better "
+        "return than holding %s over the same period." % (MIN_TRADES, BENCH)), ""]
+    return out
 
 
 def summary():
