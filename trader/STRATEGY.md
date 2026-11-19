@@ -8,6 +8,7 @@ backtest showed no edge, and IBKR's ~$0.35 minimum per order costs ~0.9% per
 round trip on a $75 position. Holding pays one commission.
 
 Rules: hold; add money when deposited (whole shares of SPYM); no stops, no day
-trading. The hourly day-trading scheduled task is disabled. tools/paper_trader.py
-is kept for reference only. Live orders are drafted as IBKR instructions; the
+trading with real money. Day trading continues on PAPER only (hourly check-in),
+as a test: it goes live only if 30+ paper trades show a clearly positive average
+R after fees. Live orders are drafted as IBKR instructions; the
 user submits them.
