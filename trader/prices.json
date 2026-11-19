@@ -1,0 +1,135 @@
+{
+  "as_of": "2026-11-19T15:27:53Z",
+  "source": "yahoo",
+  "note": "Delayed quotes for alerts and sizing checks. Your broker's price is the one that fills. detail.fetched is when each price was read.",
+  "prices": {
+    "AMRZ": 40.29,
+    "ASX": 32.52,
+    "BCS": 21.95,
+    "BMNR": 16.05,
+    "CORZ": 14.65,
+    "CRSP": 40.84,
+    "CLF": 12.11,
+    "CRWV": 51.69,
+    "FSLY": 18.69,
+    "GAP": 19.83,
+    "GME": 26.37,
+    "HPE": 47.925,
+    "AEHR": 53.3,
+    "BBWI": 18.96,
+    "DT": 47.5,
+    "STLA": 3.585,
+    "VVV": 36.895,
+    "PCG": 13.795
+  },
+  "detail": {
+    "AMRZ": {
+      "prev_close": 40.4075,
+      "time": "2026-11-19T14:54:31Z",
+      "source": "yahoo",
+      "fetched": "2026-11-19T14:54:57Z"
+    },
+    "ASX": {
+      "prev_close": 32.535,
+      "time": "2026-11-19T14:54:57Z",
+      "source": "yahoo",
+      "fetched": "2026-11-19T14:54:57Z"
+    },
+    "BCS": {
+      "prev_close": 21.59,
+      "time": "2026-11-19T14:54:32Z",
+      "source": "yahoo",
+      "fetched": "2026-11-19T14:54:58Z"
+    },
+    "BMNR": {
+      "prev_close": 15.48,
+      "time": "2026-11-19T14:54:58Z",
+      "source": "yahoo",
+      "fetched": "2026-11-19T14:54:59Z"
+    },
+    "CORZ": {
+      "prev_close": 14.05,
+      "time": "2026-11-19T14:54:58Z",
+      "source": "yahoo",
+      "fetched": "2026-11-19T14:54:59Z"
+    },
+    "CRSP": {
+      "prev_close": 40.19,
+      "time": "2026-11-19T14:54:51Z",
+      "source": "yahoo",
+      "fetched": "2026-11-19T14:55:00Z"
+    },
+    "CLF": {
+      "prev_close": 11.78,
+      "time": "2026-11-19T15:02:57Z",
+      "source": "yahoo",
+      "fetched": "2026-11-19T15:02:59Z"
+    },
+    "CRWV": {
+      "prev_close": 47.83,
+      "time": "2026-11-19T15:02:59Z",
+      "source": "yahoo",
+      "fetched": "2026-11-19T15:02:59Z"
+    },
+    "FSLY": {
+      "prev_close": 17.9,
+      "time": "2026-11-19T15:02:59Z",
+      "source": "yahoo",
+      "fetched": "2026-11-19T15:03:00Z"
+    },
+    "GAP": {
+      "prev_close": 19.84,
+      "time": "2026-11-19T15:03:00Z",
+      "source": "yahoo",
+      "fetched": "2026-11-19T15:03:01Z"
+    },
+    "GME": {
+      "prev_close": 26.53,
+      "time": "2026-11-19T15:03:01Z",
+      "source": "yahoo",
+      "fetched": "2026-11-19T15:03:01Z"
+    },
+    "HPE": {
+      "prev_close": 45.78,
+      "time": "2026-11-19T15:02:59Z",
+      "source": "yahoo",
+      "fetched": "2026-11-19T15:03:02Z"
+    },
+    "AEHR": {
+      "prev_close": 49.48,
+      "time": "2026-11-19T15:11:15Z",
+      "source": "yahoo",
+      "fetched": "2026-11-19T15:11:16Z"
+    },
+    "BBWI": {
+      "prev_close": 18.66,
+      "time": "2026-11-19T15:11:17Z",
+      "source": "yahoo",
+      "fetched": "2026-11-19T15:11:17Z"
+    },
+    "DT": {
+      "prev_close": 45.35,
+      "time": "2026-11-19T15:11:15Z",
+      "source": "yahoo",
+      "fetched": "2026-11-19T15:11:17Z"
+    },
+    "STLA": {
+      "prev_close": 3.54,
+      "time": "2026-11-19T15:11:12Z",
+      "source": "yahoo",
+      "fetched": "2026-11-19T15:11:19Z"
+    },
+    "VVV": {
+      "prev_close": 33.37,
+      "time": "2026-11-19T15:11:16Z",
+      "source": "yahoo",
+      "fetched": "2026-11-19T15:11:19Z"
+    },
+    "PCG": {
+      "prev_close": 13.71,
+      "time": "2026-11-19T15:27:38Z",
+      "source": "yahoo",
+      "fetched": "2026-11-19T15:27:53Z"
+    }
+  }
+}

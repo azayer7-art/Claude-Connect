@@ -1,0 +1,28 @@
+{
+  "created_by": "trader-exit",
+  "symbol": "PCG",
+  "side": "buy",
+  "date": "2026-11-19",
+  "setup": "orb",
+  "entry": 13.8,
+  "entry_time": null,
+  "entry_bar": null,
+  "interval": "5m",
+  "opening_range": {
+    "high": 13.77,
+    "low": 13.62,
+    "minutes": 15
+  },
+  "stop": 13.69,
+  "stop_rule": "or_mid",
+  "stop_label": "opening-range midpoint",
+  "target": 13.91,
+  "target_r": 1.0,
+  "target_label": "1R (one times the risk)",
+  "risk_per_share": 0.11,
+  "reward_risk": 1.0,
+  "flat_by": "15:55",
+  "stop_detail": "($13.77 + $13.62) / 2 = $13.695, rounded down",
+  "created_at": "2026-11-19T15:27:54Z",
+  "note": "A stop is a plan, not a guarantee: a gap or a fast market can fill past it."
+}

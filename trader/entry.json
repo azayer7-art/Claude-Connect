@@ -1,0 +1,22 @@
+{
+  "created_by": "trader-entry",
+  "symbol": "PCG",
+  "setup": "orb",
+  "side": "buy",
+  "date": "2026-11-19",
+  "status": "triggered",
+  "time": "10:15 AM",
+  "bar_start": "10:10",
+  "bar_index": 8,
+  "price": 13.77,
+  "level": 13.77,
+  "interval": "5m",
+  "opening_range": {
+    "high": 13.77,
+    "low": 13.62,
+    "minutes": 15
+  },
+  "source": "yahoo",
+  "checked_at": "2026-11-19T15:27:53Z",
+  "reason": "the 10:10 bar closed above the range high"
+}

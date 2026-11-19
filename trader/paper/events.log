@@ -16,3 +16,28 @@
 2026-11-18 15:58:18  day done. Cash $100.00
 2026-11-18 15:58:20  run end
 2026-11-19 09:33:54  run start. Cash $100.00, open: none
+2026-11-19 09:54:56  scan: 85 hits, 30 fresh and affordable
+2026-11-19 09:54:57    AMRZ: time machine failed (timemachine.py: the plan needs entry_time (the entry bar's close, e.g. 10:15 AM) or entry_bar)
+2026-11-19 09:54:58    ASX: time machine failed (timemachine.py: the plan needs entry_time (the entry bar's close, e.g. 10:15 AM) or entry_bar)
+2026-11-19 09:54:58    BCS: time machine failed (timemachine.py: the plan needs entry_time (the entry bar's close, e.g. 10:15 AM) or entry_bar)
+2026-11-19 09:54:59    BMNR: no plan at 16.05 (exit.py: the stop $16.20 (opening-range midpoint) is at or above the entry $16.05: a long's stop goes under the entry)
+2026-11-19 09:55:00    CORZ: no plan at 14.65 (exit.py: the stop $14.65 (opening-range midpoint) is at or above the entry $14.65: a long's stop goes under the entry)
+2026-11-19 09:55:01    CRSP: time machine failed (timemachine.py: the plan needs entry_time (the entry bar's close, e.g. 10:15 AM) or entry_bar)
+2026-11-19 10:02:58  scan: 84 hits, 21 fresh and affordable
+2026-11-19 10:02:59    CLF: time machine failed (timemachine.py: the plan needs entry_time (the entry bar's close, e.g. 10:15 AM) or entry_bar)
+2026-11-19 10:03:00    CRWV: time machine failed (timemachine.py: the plan needs entry_time (the entry bar's close, e.g. 10:15 AM) or entry_bar)
+2026-11-19 10:03:00    FSLY: time machine failed (timemachine.py: the plan needs entry_time (the entry bar's close, e.g. 10:15 AM) or entry_bar)
+2026-11-19 10:03:01    GAP: time machine failed (timemachine.py: the plan needs entry_time (the entry bar's close, e.g. 10:15 AM) or entry_bar)
+2026-11-19 10:03:01    GME: no plan at 26.37 (exit.py: the stop $26.48 (opening-range midpoint) is at or above the entry $26.37: a long's stop goes under the entry)
+2026-11-19 10:03:02    HPE: time machine failed (timemachine.py: the plan needs entry_time (the entry bar's close, e.g. 10:15 AM) or entry_bar)
+2026-11-19 10:11:16  scan: 104 hits, 5 fresh and affordable
+2026-11-19 10:11:16    AEHR: time machine failed (timemachine.py: the plan needs entry_time (the entry bar's close, e.g. 10:15 AM) or entry_bar)
+2026-11-19 10:11:17    BBWI: time machine failed (timemachine.py: the plan needs entry_time (the entry bar's close, e.g. 10:15 AM) or entry_bar)
+2026-11-19 10:11:18    DT: time machine failed (timemachine.py: the plan needs entry_time (the entry bar's close, e.g. 10:15 AM) or entry_bar)
+2026-11-19 10:11:19    STLA: time machine failed (timemachine.py: the plan needs entry_time (the entry bar's close, e.g. 10:15 AM) or entry_bar)
+2026-11-19 10:11:19    VVV: time machine failed (timemachine.py: the plan needs entry_time (the entry bar's close, e.g. 10:15 AM) or entry_bar)
+2026-11-19 10:20:11  scan: 105 hits, 0 fresh and affordable
+2026-11-19 10:27:53  scan: 103 hits, 1 fresh and affordable
+2026-11-19 10:27:54    PCG: time machine failed (timemachine.py: the plan needs entry_time (the entry bar's close, e.g. 10:15 AM) or entry_bar)
+2026-11-19 10:34:02  took over from run pid 883
+2026-11-19 10:34:04  run start. Cash $100.00, open: none

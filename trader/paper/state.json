@@ -1,6 +1,27 @@
 {
   "open": null,
-  "tried": {},
+  "tried": {
+    "2026-11-19": [
+      "AMRZ",
+      "ASX",
+      "BCS",
+      "BMNR",
+      "CORZ",
+      "CRSP",
+      "CLF",
+      "CRWV",
+      "FSLY",
+      "GAP",
+      "GME",
+      "HPE",
+      "AEHR",
+      "BBWI",
+      "DT",
+      "STLA",
+      "VVV",
+      "PCG"
+    ]
+  },
   "days": {
     "2026-11-18": {
       "trades": 0,
