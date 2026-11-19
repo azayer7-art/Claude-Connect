@@ -254,8 +254,16 @@ def try_enter(st, hits):
         px = quote(sym)
         if px is None:
             continue
+        # --entry overrides entry.json, so the entry bar must be passed too, or the
+        # time machine refuses the plan ("needs entry_time or entry_bar").
+        trig = e.get("trigger") or {}
+        when = []
+        if trig.get("time"):
+            when += ["--time", str(trig["time"])]
+        if trig.get("bar_index") is not None:
+            when += ["--entry-bar", str(trig["bar_index"])]
         rc, plan, err = tool_json("trader-exit/exit.py", "plan", "--entry", "%.4f" % px,
-                                  "--stop", "or-mid", "--target", "1R", "--write")
+                                  "--stop", "or-mid", "--target", "1R", *when, "--write")
         if not plan or rc != 0:
             log("  %s: no plan at %.2f (%s)" % (sym, px, str(err).strip()[-200:]))
             continue
