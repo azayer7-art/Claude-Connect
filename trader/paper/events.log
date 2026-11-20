@@ -67,3 +67,5 @@
 2026-11-20 09:54:57  ENTER EQT 1 @ 49.62, stop 49.08, target 50.16, max loss $0.54. Cash $50.38
 2026-11-20 09:55:20  took over from run pid 158
 2026-11-20 09:55:21  run start. Cash $50.38, open: EQT
+2026-11-20 10:33:32  took over from run pid 547
+2026-11-20 10:33:33  run start. Cash $50.38, open: EQT
