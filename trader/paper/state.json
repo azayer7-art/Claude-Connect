@@ -1,15 +1,5 @@
 {
-  "open": {
-    "symbol": "EQT",
-    "qty": 1,
-    "entry": 49.62,
-    "stop": 49.08,
-    "target": 50.16,
-    "risk_per_share": 0.54,
-    "max_loss": 0.54,
-    "date": "2026-11-20",
-    "entered_at": "09:54:57"
-  },
+  "open": null,
   "tried": {
     "2026-11-19": [
       "AMRZ",
@@ -51,6 +41,11 @@
       "wins": 0,
       "pnl": 0.0,
       "cash": 100.0
+    },
+    "2026-11-20": {
+      "trades": 1,
+      "wins": 0,
+      "pnl": -1.25
     }
   },
   "bench": {

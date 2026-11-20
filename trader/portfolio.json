@@ -1,17 +1,4 @@
 {
-  "cash": 50.38,
-  "positions": [
-    {
-      "ticker": "EQT",
-      "shares": 1.0,
-      "lots": [
-        {
-          "id": "EQT-1",
-          "date": "2026-11-20",
-          "shares": 1.0,
-          "cost": 49.62
-        }
-      ]
-    }
-  ]
+  "cash": 98.75,
+  "positions": []
 }
