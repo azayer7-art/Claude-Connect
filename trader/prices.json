@@ -1,5 +1,5 @@
 {
-  "as_of": "2026-11-20T14:54:59Z",
+  "as_of": "2026-11-20T14:55:19Z",
   "source": "yahoo",
   "note": "Delayed quotes for alerts and sizing checks. Your broker's price is the one that fills. detail.fetched is when each price was read.",
   "prices": {
@@ -26,7 +26,7 @@
     "CARR": 52.334,
     "CTSH": 59.104,
     "DVN": 42.27,
-    "EQT": 49.65
+    "EQT": 49.64
   },
   "detail": {
     "AMRZ": {
@@ -169,9 +169,9 @@
     },
     "EQT": {
       "prev_close": 49.3,
-      "time": "2026-11-20T14:54:58Z",
+      "time": "2026-11-20T14:55:16Z",
       "source": "yahoo",
-      "fetched": "2026-11-20T14:54:59Z"
+      "fetched": "2026-11-20T14:55:19Z"
     }
   }
 }
