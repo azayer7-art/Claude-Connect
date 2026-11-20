@@ -1,5 +1,5 @@
 {
-  "as_of": "2026-11-19T20:59:47Z",
+  "as_of": "2026-11-20T14:54:56Z",
   "source": "yahoo",
   "note": "Delayed quotes for alerts and sizing checks. Your broker's price is the one that fills. detail.fetched is when each price was read.",
   "prices": {
@@ -21,7 +21,12 @@
     "STLA": 3.585,
     "VVV": 36.895,
     "PCG": 13.795,
-    "SPYM": 84.3
+    "SPYM": 84.3,
+    "BRZE": 46.42,
+    "CARR": 52.334,
+    "CTSH": 59.104,
+    "DVN": 42.27,
+    "EQT": 49.62
   },
   "detail": {
     "AMRZ": {
@@ -137,6 +142,36 @@
       "time": "2026-11-19T20:58:38Z",
       "source": "yahoo",
       "fetched": "2026-11-19T20:59:47Z"
+    },
+    "BRZE": {
+      "prev_close": 46.24,
+      "time": "2026-11-20T14:54:29Z",
+      "source": "yahoo",
+      "fetched": "2026-11-20T14:54:48Z"
+    },
+    "CARR": {
+      "prev_close": 51.52,
+      "time": "2026-11-20T14:54:46Z",
+      "source": "yahoo",
+      "fetched": "2026-11-20T14:54:50Z"
+    },
+    "CTSH": {
+      "prev_close": 56.31,
+      "time": "2026-11-20T14:54:41Z",
+      "source": "yahoo",
+      "fetched": "2026-11-20T14:54:51Z"
+    },
+    "DVN": {
+      "prev_close": 42.05,
+      "time": "2026-11-20T14:54:51Z",
+      "source": "yahoo",
+      "fetched": "2026-11-20T14:54:53Z"
+    },
+    "EQT": {
+      "prev_close": 49.3,
+      "time": "2026-11-20T14:54:51Z",
+      "source": "yahoo",
+      "fetched": "2026-11-20T14:54:56Z"
     }
   }
 }

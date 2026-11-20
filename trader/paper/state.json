@@ -1,5 +1,15 @@
 {
-  "open": null,
+  "open": {
+    "symbol": "EQT",
+    "qty": 1,
+    "entry": 49.62,
+    "stop": 49.08,
+    "target": 50.16,
+    "risk_per_share": 0.54,
+    "max_loss": 0.54,
+    "date": "2026-11-20",
+    "entered_at": "09:54:57"
+  },
   "tried": {
     "2026-11-19": [
       "AMRZ",
@@ -20,6 +30,13 @@
       "STLA",
       "VVV",
       "PCG"
+    ],
+    "2026-11-20": [
+      "BRZE",
+      "CARR",
+      "CTSH",
+      "DVN",
+      "EQT"
     ]
   },
   "days": {

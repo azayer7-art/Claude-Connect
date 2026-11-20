@@ -54,3 +54,14 @@
 2026-11-19 15:58:20  day done. Cash $100.00
 2026-11-19 15:58:23  run end
 2026-11-20 09:33:50  run start. Cash $100.00, open: none
+2026-11-20 09:54:48  scan: 63 hits, 16 fresh and affordable
+2026-11-20 09:54:49    BRZE @ 46.42 stop 46.26 target 46.58 | sim avgR -0.122 (T 44% / S 56%) | history 29 fired, avgR -0.076
+2026-11-20 09:54:49    BRZE: skipped, no edge
+2026-11-20 09:54:51    CARR @ 52.33 stop 51.97 target 52.69 | sim avgR -0.030 (T 48% / S 51%) | history 32 fired, avgR 0.068
+2026-11-20 09:54:51    CARR: skipped, no edge
+2026-11-20 09:54:53    CTSH @ 59.10 stop 57.90 target 60.30 | sim avgR -0.154 (T 19% / S 32%) | history 32 fired, avgR -0.188
+2026-11-20 09:54:53    CTSH: skipped, no edge
+2026-11-20 09:54:55    DVN @ 42.27 stop 41.81 target 42.73 | sim avgR -0.057 (T 40% / S 45%) | history 30 fired, avgR 0.113
+2026-11-20 09:54:55    DVN: skipped, no edge
+2026-11-20 09:54:56    EQT @ 49.62 stop 49.08 target 50.16 | sim avgR 0.034 (T 44% / S 40%) | history 32 fired, avgR 0.009
+2026-11-20 09:54:57  ENTER EQT 1 @ 49.62, stop 49.08, target 50.16, max loss $0.54. Cash $50.38
