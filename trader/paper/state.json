@@ -1,0 +1,62 @@
+{
+  "open": {
+    "symbol": "EQT",
+    "qty": 1,
+    "entry": 49.62,
+    "stop": 49.08,
+    "target": 50.16,
+    "risk_per_share": 0.54,
+    "max_loss": 0.54,
+    "date": "2026-11-20",
+    "entered_at": "09:54:57"
+  },
+  "tried": {
+    "2026-11-19": [
+      "AMRZ",
+      "ASX",
+      "BCS",
+      "BMNR",
+      "CORZ",
+      "CRSP",
+      "CLF",
+      "CRWV",
+      "FSLY",
+      "GAP",
+      "GME",
+      "HPE",
+      "AEHR",
+      "BBWI",
+      "DT",
+      "STLA",
+      "VVV",
+      "PCG"
+    ],
+    "2026-11-20": [
+      "BRZE",
+      "CARR",
+      "CTSH",
+      "DVN",
+      "EQT"
+    ]
+  },
+  "days": {
+    "2026-11-18": {
+      "trades": 0,
+      "wins": 0,
+      "pnl": 0.0,
+      "cash": 100.0
+    },
+    "2026-11-19": {
+      "trades": 0,
+      "wins": 0,
+      "pnl": 0.0,
+      "cash": 100.0
+    }
+  },
+  "bench": {
+    "symbol": "SPYM",
+    "date": "2026-11-19",
+    "price": 85.81,
+    "start_cash": 100.0
+  }
+}

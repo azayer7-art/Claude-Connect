@@ -1,0 +1,28 @@
+{
+  "created_by": "trader-exit",
+  "symbol": "EQT",
+  "side": "buy",
+  "date": "2026-11-20",
+  "setup": "orb",
+  "entry": 49.62,
+  "entry_time": "9:50 AM",
+  "entry_bar": 3,
+  "interval": "5m",
+  "opening_range": {
+    "high": 49.33,
+    "low": 48.83,
+    "minutes": 15
+  },
+  "stop": 49.08,
+  "stop_rule": "or_mid",
+  "stop_label": "opening-range midpoint",
+  "target": 50.16,
+  "target_r": 1.0,
+  "target_label": "1R (one times the risk)",
+  "risk_per_share": 0.54,
+  "reward_risk": 1.0,
+  "flat_by": "15:55",
+  "stop_detail": "($49.33 + $48.83) / 2 = $49.08",
+  "created_at": "2026-11-20T14:54:55Z",
+  "note": "A stop is a plan, not a guarantee: a gap or a fast market can fill past it."
+}

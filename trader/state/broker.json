@@ -1,0 +1,26 @@
+{
+  "orders": [
+    {
+      "at": "2026-11-20T09:54:57-05:00",
+      "date": "2026-11-20",
+      "status": "filled",
+      "symbol": "EQT",
+      "side": "buy",
+      "qty": "1",
+      "price": 49.62,
+      "plain": "BUY 1 EQT at 49.62"
+    },
+    {
+      "at": "2026-11-20T09:54:57",
+      "date": "2026-11-20",
+      "symbol": "EQT",
+      "side": "buy",
+      "qty": "1",
+      "kind": "entry",
+      "max_loss": 0.54,
+      "stop": 49.08,
+      "status": "placed",
+      "note": "auto-paper: simulated fill at the live quote, no broker, no user approval involved"
+    }
+  ]
+}
