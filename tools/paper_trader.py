@@ -312,6 +312,14 @@ def try_enter(st, hits):
             log("  %s: price moved to %.2f before the fill, skipped" % (sym, fill_px))
             continue
         qty = int(s["qty"])
+        # Judge by profit after fees: if hitting the target would not at least double the
+        # round-trip commissions, the trade cannot pay for itself. Skip it.
+        rt_fees = fee(qty, fill_px) + fee(qty, plan["target"])
+        tgt_gain = (plan["target"] - fill_px) * qty
+        if tgt_gain < 2 * rt_fees:
+            log("  %s: skipped, target gain $%.2f does not cover 2x round-trip fees $%.2f"
+                % (sym, tgt_gain, rt_fees))
+            continue
         global _critical
         _critical = True
         rc, out, err = tool("trader-broker/ticket.py", "fill", "--symbol", sym, "--side", "buy",
