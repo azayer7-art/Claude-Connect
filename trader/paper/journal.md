@@ -17,6 +17,6 @@ Cash now: $98.75. Trades: 1, wins: 0 (0%). Progress to goal: 0.0198%.
 - Fees paid: $0.70 (gross P/L was not positive)
 - Largest loss: $-1.25; average loss $-1.25 vs average win $0.00
 - Win rate: 0% (for information only; it decides nothing)
-- Same period, holding SPYM since 2026-11-19: -5.77%. Paper strategy: -1.25%.
+- Same period, holding SPYM since 2026-11-19: -5.63%. Paper strategy: -1.25%.
 
 Verdict: NOT live-ready. Needs 30+ trades, positive net profit per trade after fees, and a better return than holding SPYM over the same period.
