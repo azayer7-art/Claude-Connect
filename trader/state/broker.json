@@ -53,6 +53,16 @@
       "stop": 44.86,
       "status": "placed",
       "note": "auto-paper: simulated fill at the live quote, no broker, no user approval involved"
+    },
+    {
+      "at": "2026-11-23T12:02:03-05:00",
+      "date": "2026-11-23",
+      "status": "filled",
+      "symbol": "BSP",
+      "side": "sell",
+      "qty": "1",
+      "price": 44.85,
+      "plain": "SELL 1 BSP at 44.85"
     }
   ]
 }

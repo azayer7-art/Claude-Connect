@@ -1,17 +1,4 @@
 {
-  "cash": 51.16,
-  "positions": [
-    {
-      "ticker": "BSP",
-      "shares": 1.0,
-      "lots": [
-        {
-          "id": "BSP-1",
-          "date": "2026-11-23",
-          "shares": 1.0,
-          "cost": 47.59
-        }
-      ]
-    }
-  ]
+  "cash": 95.31,
+  "positions": []
 }
