@@ -1,6 +1,20 @@
-# Strategy (from 2026-11-18)
+# Strategy (from 2026-11-18; diversified 2026-11-23)
 
-Buy and hold a broad US index ETF: SPYM (SPDR Portfolio S&P 500, 0.02% fee).
+Buy and hold two broad index ETFs in the IBKR account:
+
+| Fund | What | Fee | Target |
+| --- | --- | --- | --- |
+| SPYM | S&P 500 (US large caps) | 0.02% | 70% |
+| VXUS | All stocks outside the US (developed + emerging) | 0.05% | 30% |
+
+Why two: the user's other account (VOO, SPTE, U) is all US and heavily tech, so
+the diversification that matters is outside the US, not more US funds.
+
+Buying rule: each deposit buys whole shares of whichever fund is furthest below
+its target (one order per deposit, to keep commissions low). No selling to
+rebalance unless a fund drifts more than 10 points from target.
+
+Original reasoning for holding instead of trading:
 
 Why: over 10 years, most of SPY's gain came overnight (close to open +142%) vs
 intraday (+37%). Day trading flattens every close and gives that up; the ORB
