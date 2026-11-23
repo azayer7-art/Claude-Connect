@@ -1,0 +1,22 @@
+{
+  "created_by": "trader-entry",
+  "symbol": "BSP",
+  "setup": "orb",
+  "side": "buy",
+  "date": "2026-11-23",
+  "status": "triggered",
+  "time": "10:05 AM",
+  "bar_start": "10:00",
+  "bar_index": 6,
+  "price": 47.0,
+  "level": 46.6,
+  "interval": "5m",
+  "opening_range": {
+    "high": 46.6,
+    "low": 43.13,
+    "minutes": 15
+  },
+  "source": "yahoo",
+  "checked_at": "2026-11-23T15:10:41Z",
+  "reason": "the 10:00 bar closed above the range high"
+}

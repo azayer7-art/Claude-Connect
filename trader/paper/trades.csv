@@ -1,0 +1,3 @@
+date,symbol,qty,entry_time,entry,stop,target,exit_time,exit,reason,gross_usd,fees_usd,pnl_usd,R,cash_after
+2026-11-20,EQT,1,09:54:57,49.62,49.08,50.16,14:34:45,49.07,stop,-0.55,0.7,-1.25,-1.02,98.75
+2026-11-23,BSP,1,10:10:43,47.585,44.86,50.32,12:02:03,44.85,stop,-2.73,0.7,-3.43,-1.0,95.31

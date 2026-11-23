@@ -1,0 +1,8 @@
+# trader/ is committed so the paper-trading log survives container resets.
+# It must never hold personal data: the SEC contact lives in the SEC_USER_AGENT
+# environment variable, and tools/paper_trader.py refuses to commit if it finds it.
+trader/*.tmp
+trader/paper/lock
+__pycache__/
+trader/backtest/cache/
+trader/prices.json

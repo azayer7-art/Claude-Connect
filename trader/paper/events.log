@@ -1,0 +1,123 @@
+2026-11-18 10:57:15  run start. Cash $100.00, open: none
+2026-11-18 11:02:23  scan: 95 hits, 0 fresh and affordable
+2026-11-18 11:10:13  scan: 82 hits, 0 fresh and affordable
+2026-11-18 11:14:55  took over from run pid 617
+2026-11-18 11:14:57  run start. Cash $100.00, open: none
+2026-11-18 11:40:47  took over from run pid 1716
+2026-11-18 11:40:49  run start. Cash $100.00, open: none
+2026-11-18 12:34:29  took over from run pid 2257
+2026-11-18 12:34:31  run start. Cash $100.00, open: none
+2026-11-18 13:33:47  took over from run pid 3007
+2026-11-18 13:33:49  run start. Cash $100.00, open: none
+2026-11-18 14:34:15  took over from run pid 3631
+2026-11-18 14:34:17  run start. Cash $100.00, open: none
+2026-11-18 15:33:44  took over from run pid 4274
+2026-11-18 15:33:46  run start. Cash $100.00, open: none
+2026-11-18 15:58:18  day done. Cash $100.00
+2026-11-18 15:58:20  run end
+2026-11-19 09:33:54  run start. Cash $100.00, open: none
+2026-11-19 09:54:56  scan: 85 hits, 30 fresh and affordable
+2026-11-19 09:54:57    AMRZ: time machine failed (timemachine.py: the plan needs entry_time (the entry bar's close, e.g. 10:15 AM) or entry_bar)
+2026-11-19 09:54:58    ASX: time machine failed (timemachine.py: the plan needs entry_time (the entry bar's close, e.g. 10:15 AM) or entry_bar)
+2026-11-19 09:54:58    BCS: time machine failed (timemachine.py: the plan needs entry_time (the entry bar's close, e.g. 10:15 AM) or entry_bar)
+2026-11-19 09:54:59    BMNR: no plan at 16.05 (exit.py: the stop $16.20 (opening-range midpoint) is at or above the entry $16.05: a long's stop goes under the entry)
+2026-11-19 09:55:00    CORZ: no plan at 14.65 (exit.py: the stop $14.65 (opening-range midpoint) is at or above the entry $14.65: a long's stop goes under the entry)
+2026-11-19 09:55:01    CRSP: time machine failed (timemachine.py: the plan needs entry_time (the entry bar's close, e.g. 10:15 AM) or entry_bar)
+2026-11-19 10:02:58  scan: 84 hits, 21 fresh and affordable
+2026-11-19 10:02:59    CLF: time machine failed (timemachine.py: the plan needs entry_time (the entry bar's close, e.g. 10:15 AM) or entry_bar)
+2026-11-19 10:03:00    CRWV: time machine failed (timemachine.py: the plan needs entry_time (the entry bar's close, e.g. 10:15 AM) or entry_bar)
+2026-11-19 10:03:00    FSLY: time machine failed (timemachine.py: the plan needs entry_time (the entry bar's close, e.g. 10:15 AM) or entry_bar)
+2026-11-19 10:03:01    GAP: time machine failed (timemachine.py: the plan needs entry_time (the entry bar's close, e.g. 10:15 AM) or entry_bar)
+2026-11-19 10:03:01    GME: no plan at 26.37 (exit.py: the stop $26.48 (opening-range midpoint) is at or above the entry $26.37: a long's stop goes under the entry)
+2026-11-19 10:03:02    HPE: time machine failed (timemachine.py: the plan needs entry_time (the entry bar's close, e.g. 10:15 AM) or entry_bar)
+2026-11-19 10:11:16  scan: 104 hits, 5 fresh and affordable
+2026-11-19 10:11:16    AEHR: time machine failed (timemachine.py: the plan needs entry_time (the entry bar's close, e.g. 10:15 AM) or entry_bar)
+2026-11-19 10:11:17    BBWI: time machine failed (timemachine.py: the plan needs entry_time (the entry bar's close, e.g. 10:15 AM) or entry_bar)
+2026-11-19 10:11:18    DT: time machine failed (timemachine.py: the plan needs entry_time (the entry bar's close, e.g. 10:15 AM) or entry_bar)
+2026-11-19 10:11:19    STLA: time machine failed (timemachine.py: the plan needs entry_time (the entry bar's close, e.g. 10:15 AM) or entry_bar)
+2026-11-19 10:11:19    VVV: time machine failed (timemachine.py: the plan needs entry_time (the entry bar's close, e.g. 10:15 AM) or entry_bar)
+2026-11-19 10:20:11  scan: 105 hits, 0 fresh and affordable
+2026-11-19 10:27:53  scan: 103 hits, 1 fresh and affordable
+2026-11-19 10:27:54    PCG: time machine failed (timemachine.py: the plan needs entry_time (the entry bar's close, e.g. 10:15 AM) or entry_bar)
+2026-11-19 10:34:02  took over from run pid 883
+2026-11-19 10:34:04  run start. Cash $100.00, open: none
+2026-11-19 11:34:13  took over from run pid 1724
+2026-11-19 11:34:16  run start. Cash $100.00, open: none
+2026-11-19 12:34:07  took over from run pid 2600
+2026-11-19 12:34:09  run start. Cash $100.00, open: none
+2026-11-19 13:33:36  took over from run pid 3203
+2026-11-19 13:33:37  run start. Cash $100.00, open: none
+2026-11-19 14:33:48  took over from run pid 3789
+2026-11-19 14:33:49  run start. Cash $100.00, open: none
+2026-11-19 15:34:16  took over from run pid 4431
+2026-11-19 15:34:18  run start. Cash $100.00, open: none
+2026-11-19 15:58:20  day done. Cash $100.00
+2026-11-19 15:58:23  run end
+2026-11-20 09:33:50  run start. Cash $100.00, open: none
+2026-11-20 09:54:48  scan: 63 hits, 16 fresh and affordable
+2026-11-20 09:54:49    BRZE @ 46.42 stop 46.26 target 46.58 | sim avgR -0.122 (T 44% / S 56%) | history 29 fired, avgR -0.076
+2026-11-20 09:54:49    BRZE: skipped, no edge
+2026-11-20 09:54:51    CARR @ 52.33 stop 51.97 target 52.69 | sim avgR -0.030 (T 48% / S 51%) | history 32 fired, avgR 0.068
+2026-11-20 09:54:51    CARR: skipped, no edge
+2026-11-20 09:54:53    CTSH @ 59.10 stop 57.90 target 60.30 | sim avgR -0.154 (T 19% / S 32%) | history 32 fired, avgR -0.188
+2026-11-20 09:54:53    CTSH: skipped, no edge
+2026-11-20 09:54:55    DVN @ 42.27 stop 41.81 target 42.73 | sim avgR -0.057 (T 40% / S 45%) | history 30 fired, avgR 0.113
+2026-11-20 09:54:55    DVN: skipped, no edge
+2026-11-20 09:54:56    EQT @ 49.62 stop 49.08 target 50.16 | sim avgR 0.034 (T 44% / S 40%) | history 32 fired, avgR 0.009
+2026-11-20 09:54:57  ENTER EQT 1 @ 49.62, stop 49.08, target 50.16, max loss $0.54. Cash $50.38
+2026-11-20 09:55:20  took over from run pid 158
+2026-11-20 09:55:21  run start. Cash $50.38, open: EQT
+2026-11-20 10:33:32  took over from run pid 547
+2026-11-20 10:33:33  run start. Cash $50.38, open: EQT
+2026-11-20 11:33:55  took over from run pid 1147
+2026-11-20 11:33:57  run start. Cash $50.38, open: EQT
+2026-11-20 12:33:49  took over from run pid 2243
+2026-11-20 12:33:50  run start. Cash $50.38, open: EQT
+2026-11-20 13:34:08  took over from run pid 3575
+2026-11-20 13:34:09  run start. Cash $50.38, open: EQT
+2026-11-20 14:33:38  took over from run pid 4606
+2026-11-20 14:33:40  run start. Cash $50.38, open: EQT
+2026-11-20 14:34:45  EXIT EQT 1 @ 49.07 (stop): net P/L $-1.25 after fees, -1.02R. Cash $98.75
+2026-11-20 15:33:47  took over from run pid 5343
+2026-11-20 15:33:49  run start. Cash $98.75, open: none
+2026-11-20 15:58:21  day done. Cash $98.75
+2026-11-20 15:58:23  run end
+2026-11-23 09:33:42  run start. Cash $98.75, open: none
+2026-11-23 09:54:34  scan: 44 hits, 10 fresh and affordable
+2026-11-23 09:54:36    CPRT @ 31.16 stop 30.94 target 31.38 | sim avgR 0.081 (T 54% / S 46%) | history 32 fired, avgR 0.061
+2026-11-23 09:54:36    CPRT: skipped, target gain $0.43 does not cover 2x round-trip fees $0.70
+2026-11-23 09:54:38    GMAB @ 51.79 stop 51.50 target 52.08 | sim avgR -0.036 (T 48% / S 52%) | history 34 fired, avgR 0.051
+2026-11-23 09:54:38    GMAB: skipped, no edge
+2026-11-23 09:54:41    HTHT @ 52.06 stop 51.47 target 52.65 | sim avgR 0.011 (T 33% / S 30%) | history 24 fired, avgR -0.052
+2026-11-23 09:54:41    HTHT: skipped, no edge
+2026-11-23 09:54:43    INFY @ 11.94 stop 11.85 target 12.03 | sim avgR 0.029 (T 51% / S 48%) | history 32 fired, avgR -0.064
+2026-11-23 09:54:43    INFY: skipped, no edge
+2026-11-23 09:54:45    KDP @ 34.93 stop 34.73 target 35.13 | sim avgR 0.080 (T 54% / S 46%) | history 38 fired, avgR 0.098
+2026-11-23 09:54:45    KDP: skipped, target gain $0.40 does not cover 2x round-trip fees $0.70
+2026-11-23 09:54:47    NUAI @ 4.42 stop 4.24 target 4.60 | sim avgR -0.013 (T 47% / S 48%) | history 31 fired, avgR 0.140
+2026-11-23 09:54:47    NUAI: skipped, no edge
+2026-11-23 10:03:12  scan: 59 hits, 6 fresh and affordable
+2026-11-23 10:03:14    BMY @ 58.99 stop 58.76 target 59.24 | sim avgR -0.108 (T 45% / S 55%) | history 26 fired, avgR 0.189
+2026-11-23 10:03:14    BMY: skipped, no edge
+2026-11-23 10:03:17    F @ 11.44 stop 11.42 target 11.46 | sim avgR -0.162 (T 42% / S 58%) | history 23 fired, avgR -0.320
+2026-11-23 10:03:17    F: skipped, no edge
+2026-11-23 10:03:19    HLN @ 8.99 stop 8.98 target 9.00 | sim avgR -0.172 (T 41% / S 59%) | history 36 fired, avgR -0.081
+2026-11-23 10:03:19    HLN: skipped, no edge
+2026-11-23 10:03:20    NVO @ 38.72 stop 38.60 target 38.84 | sim avgR -0.125 (T 44% / S 56%) | history 32 fired, avgR 0.009
+2026-11-23 10:03:20    NVO: skipped, no edge
+2026-11-23 10:03:23    OXY @ 53.99 stop 53.72 target 54.26 | sim avgR 0.007 (T 50% / S 50%) | history 36 fired, avgR -0.289
+2026-11-23 10:03:23    OXY: skipped, no edge
+2026-11-23 10:03:25    YUMC @ 50.01 stop 49.69 target 50.33 | sim avgR -0.092 (T 38% / S 47%) | history 20 fired, avgR 0.120
+2026-11-23 10:03:25    YUMC: skipped, no edge
+2026-11-23 10:10:37  scan: 65 hits, 5 fresh and affordable
+2026-11-23 10:10:39    DVN @ 41.70 stop 41.58 target 41.82 | sim avgR -0.043 (T 48% / S 52%) | history 31 fired, avgR 0.141
+2026-11-23 10:10:39    DVN: skipped, no edge
+2026-11-23 10:10:41    VALE @ 9.89 stop 9.79 target 9.99 | sim avgR -0.148 (T 37% / S 51%) | history 27 fired, avgR 0.290
+2026-11-23 10:10:41    VALE: skipped, no edge
+2026-11-23 10:10:43    BSP @ 47.59 stop 44.86 target 50.32 | sim avgR 0.025 (T 18% / S 17%) | history 30 fired, avgR 0.003
+2026-11-23 10:10:43  ENTER BSP 1 @ 47.59, stop 44.86, target 50.32, max loss $2.73. Cash $51.16
+2026-11-23 10:33:59  took over from run pid 160
+2026-11-23 10:34:01  run start. Cash $51.16, open: BSP
+2026-11-23 11:33:55  took over from run pid 957
+2026-11-23 11:33:56  run start. Cash $51.16, open: BSP
+2026-11-23 12:02:03  EXIT BSP 1 @ 44.85 (stop): net P/L $-3.43 after fees, -1.00R. Cash $95.31

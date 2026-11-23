@@ -1,0 +1,80 @@
+{
+  "open": null,
+  "tried": {
+    "2026-11-19": [
+      "AMRZ",
+      "ASX",
+      "BCS",
+      "BMNR",
+      "CORZ",
+      "CRSP",
+      "CLF",
+      "CRWV",
+      "FSLY",
+      "GAP",
+      "GME",
+      "HPE",
+      "AEHR",
+      "BBWI",
+      "DT",
+      "STLA",
+      "VVV",
+      "PCG"
+    ],
+    "2026-11-20": [
+      "BRZE",
+      "CARR",
+      "CTSH",
+      "DVN",
+      "EQT"
+    ],
+    "2026-11-23": [
+      "CPRT",
+      "GMAB",
+      "HTHT",
+      "INFY",
+      "KDP",
+      "NUAI",
+      "BMY",
+      "F",
+      "HLN",
+      "NVO",
+      "OXY",
+      "YUMC",
+      "DVN",
+      "VALE",
+      "BSP"
+    ]
+  },
+  "days": {
+    "2026-11-18": {
+      "trades": 0,
+      "wins": 0,
+      "pnl": 0.0,
+      "cash": 100.0
+    },
+    "2026-11-19": {
+      "trades": 0,
+      "wins": 0,
+      "pnl": 0.0,
+      "cash": 100.0
+    },
+    "2026-11-20": {
+      "trades": 1,
+      "wins": 0,
+      "pnl": -1.25,
+      "cash": 98.75
+    },
+    "2026-11-23": {
+      "trades": 1,
+      "wins": 0,
+      "pnl": -3.43
+    }
+  },
+  "bench": {
+    "symbol": "SPYM",
+    "date": "2026-11-19",
+    "price": 85.81,
+    "start_cash": 100.0
+  }
+}
