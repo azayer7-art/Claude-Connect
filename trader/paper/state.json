@@ -1,5 +1,15 @@
 {
-  "open": null,
+  "open": {
+    "symbol": "BSP",
+    "qty": 1,
+    "entry": 47.585,
+    "stop": 44.86,
+    "target": 50.32,
+    "risk_per_share": 2.725,
+    "max_loss": 2.73,
+    "date": "2026-11-23",
+    "entered_at": "10:10:43"
+  },
   "tried": {
     "2026-11-19": [
       "AMRZ",
@@ -27,6 +37,23 @@
       "CTSH",
       "DVN",
       "EQT"
+    ],
+    "2026-11-23": [
+      "CPRT",
+      "GMAB",
+      "HTHT",
+      "INFY",
+      "KDP",
+      "NUAI",
+      "BMY",
+      "F",
+      "HLN",
+      "NVO",
+      "OXY",
+      "YUMC",
+      "DVN",
+      "VALE",
+      "BSP"
     ]
   },
   "days": {

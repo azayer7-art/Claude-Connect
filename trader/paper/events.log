@@ -83,3 +83,36 @@
 2026-11-20 15:58:21  day done. Cash $98.75
 2026-11-20 15:58:23  run end
 2026-11-23 09:33:42  run start. Cash $98.75, open: none
+2026-11-23 09:54:34  scan: 44 hits, 10 fresh and affordable
+2026-11-23 09:54:36    CPRT @ 31.16 stop 30.94 target 31.38 | sim avgR 0.081 (T 54% / S 46%) | history 32 fired, avgR 0.061
+2026-11-23 09:54:36    CPRT: skipped, target gain $0.43 does not cover 2x round-trip fees $0.70
+2026-11-23 09:54:38    GMAB @ 51.79 stop 51.50 target 52.08 | sim avgR -0.036 (T 48% / S 52%) | history 34 fired, avgR 0.051
+2026-11-23 09:54:38    GMAB: skipped, no edge
+2026-11-23 09:54:41    HTHT @ 52.06 stop 51.47 target 52.65 | sim avgR 0.011 (T 33% / S 30%) | history 24 fired, avgR -0.052
+2026-11-23 09:54:41    HTHT: skipped, no edge
+2026-11-23 09:54:43    INFY @ 11.94 stop 11.85 target 12.03 | sim avgR 0.029 (T 51% / S 48%) | history 32 fired, avgR -0.064
+2026-11-23 09:54:43    INFY: skipped, no edge
+2026-11-23 09:54:45    KDP @ 34.93 stop 34.73 target 35.13 | sim avgR 0.080 (T 54% / S 46%) | history 38 fired, avgR 0.098
+2026-11-23 09:54:45    KDP: skipped, target gain $0.40 does not cover 2x round-trip fees $0.70
+2026-11-23 09:54:47    NUAI @ 4.42 stop 4.24 target 4.60 | sim avgR -0.013 (T 47% / S 48%) | history 31 fired, avgR 0.140
+2026-11-23 09:54:47    NUAI: skipped, no edge
+2026-11-23 10:03:12  scan: 59 hits, 6 fresh and affordable
+2026-11-23 10:03:14    BMY @ 58.99 stop 58.76 target 59.24 | sim avgR -0.108 (T 45% / S 55%) | history 26 fired, avgR 0.189
+2026-11-23 10:03:14    BMY: skipped, no edge
+2026-11-23 10:03:17    F @ 11.44 stop 11.42 target 11.46 | sim avgR -0.162 (T 42% / S 58%) | history 23 fired, avgR -0.320
+2026-11-23 10:03:17    F: skipped, no edge
+2026-11-23 10:03:19    HLN @ 8.99 stop 8.98 target 9.00 | sim avgR -0.172 (T 41% / S 59%) | history 36 fired, avgR -0.081
+2026-11-23 10:03:19    HLN: skipped, no edge
+2026-11-23 10:03:20    NVO @ 38.72 stop 38.60 target 38.84 | sim avgR -0.125 (T 44% / S 56%) | history 32 fired, avgR 0.009
+2026-11-23 10:03:20    NVO: skipped, no edge
+2026-11-23 10:03:23    OXY @ 53.99 stop 53.72 target 54.26 | sim avgR 0.007 (T 50% / S 50%) | history 36 fired, avgR -0.289
+2026-11-23 10:03:23    OXY: skipped, no edge
+2026-11-23 10:03:25    YUMC @ 50.01 stop 49.69 target 50.33 | sim avgR -0.092 (T 38% / S 47%) | history 20 fired, avgR 0.120
+2026-11-23 10:03:25    YUMC: skipped, no edge
+2026-11-23 10:10:37  scan: 65 hits, 5 fresh and affordable
+2026-11-23 10:10:39    DVN @ 41.70 stop 41.58 target 41.82 | sim avgR -0.043 (T 48% / S 52%) | history 31 fired, avgR 0.141
+2026-11-23 10:10:39    DVN: skipped, no edge
+2026-11-23 10:10:41    VALE @ 9.89 stop 9.79 target 9.99 | sim avgR -0.148 (T 37% / S 51%) | history 27 fired, avgR 0.290
+2026-11-23 10:10:41    VALE: skipped, no edge
+2026-11-23 10:10:43    BSP @ 47.59 stop 44.86 target 50.32 | sim avgR 0.025 (T 18% / S 17%) | history 30 fired, avgR 0.003
+2026-11-23 10:10:43  ENTER BSP 1 @ 47.59, stop 44.86, target 50.32, max loss $2.73. Cash $51.16

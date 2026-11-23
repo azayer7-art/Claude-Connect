@@ -31,6 +31,28 @@
       "qty": "1",
       "price": 49.07,
       "plain": "SELL 1 EQT at 49.07"
+    },
+    {
+      "at": "2026-11-23T10:10:43-05:00",
+      "date": "2026-11-23",
+      "status": "filled",
+      "symbol": "BSP",
+      "side": "buy",
+      "qty": "1",
+      "price": 47.585,
+      "plain": "BUY 1 BSP at 47.59"
+    },
+    {
+      "at": "2026-11-23T10:10:43",
+      "date": "2026-11-23",
+      "symbol": "BSP",
+      "side": "buy",
+      "qty": "1",
+      "kind": "entry",
+      "max_loss": 2.73,
+      "stop": 44.86,
+      "status": "placed",
+      "note": "auto-paper: simulated fill at the live quote, no broker, no user approval involved"
     }
   ]
 }
