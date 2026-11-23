@@ -122,3 +122,5 @@
 2026-11-23 11:33:56  run start. Cash $51.16, open: BSP
 2026-11-23 12:02:03  EXIT BSP 1 @ 44.85 (stop): net P/L $-3.43 after fees, -1.00R. Cash $95.31
 2026-11-23 12:35:05  run start. Cash $95.31, open: none
+2026-11-23 13:33:34  took over from run pid 174
+2026-11-23 13:33:35  run start. Cash $95.31, open: none
