@@ -116,3 +116,5 @@
 2026-11-23 10:10:41    VALE: skipped, no edge
 2026-11-23 10:10:43    BSP @ 47.59 stop 44.86 target 50.32 | sim avgR 0.025 (T 18% / S 17%) | history 30 fired, avgR 0.003
 2026-11-23 10:10:43  ENTER BSP 1 @ 47.59, stop 44.86, target 50.32, max loss $2.73. Cash $51.16
+2026-11-23 10:33:59  took over from run pid 160
+2026-11-23 10:34:01  run start. Cash $51.16, open: BSP
