@@ -157,3 +157,16 @@
 2026-11-24 10:04:02    O: skipped, no edge
 2026-11-24 10:04:06    PCG @ 14.19 stop 14.06 target 14.32 | sim avgR 0.108 (T 54% / S 43%) | history 36 fired, avgR 0.103
 2026-11-24 10:04:07    PCG: skipped, target gain $0.65 does not cover 2x round-trip fees $0.70
+2026-11-24 10:12:35  scan: 143 hits, 7 fresh and affordable
+2026-11-24 10:12:37    RBLX @ 53.27 stop 52.54 target 54.02 | sim avgR 0.069 (T 53% / S 46%) | history 36 fired, avgR 0.073
+2026-11-24 10:12:37    RBLX: skipped, target gain $0.75 does not cover 2x round-trip fees $0.70
+2026-11-24 10:12:39    SOFI @ 12.99 stop 12.98 target 13.00 | sim avgR -0.582 (T 21% / S 79%) | history 26 fired, avgR 0.193
+2026-11-24 10:12:39    SOFI: skipped, no edge
+2026-11-24 10:12:41    T @ 22.82 stop 22.51 target 23.13 | sim avgR -0.114 (T 22% / S 30%) | history 39 fired, avgR -0.229
+2026-11-24 10:12:41    T: skipped, no edge
+2026-11-24 10:12:43    ADT @ 9.89 stop 9.89 target 9.91 | sim avgR -0.184 (T 41% / S 59%) | history 30 fired, avgR -0.061
+2026-11-24 10:12:43    ADT: skipped, no edge
+2026-11-24 10:12:47    KDP @ 36.03 stop 35.64 target 36.42 | sim avgR 0.129 (T 45% / S 31%) | history 38 fired, avgR 0.150
+2026-11-24 10:12:47    KDP: risk BLOCK: position: KDP would be $72.06, 75.6% of the $95.31 account, over your 75% cap
+2026-11-24 10:12:50    TSCO @ 38.89 stop 38.09 target 39.69 | sim avgR 0.105 (T 28% / S 18%) | history 36 fired, avgR -0.049
+2026-11-24 10:12:50    TSCO: skipped, no edge
