@@ -1,22 +1,22 @@
 {
   "created_by": "trader-entry",
-  "symbol": "TSCO",
+  "symbol": "NKE",
   "setup": "orb",
   "side": "buy",
   "date": "2026-11-24",
   "status": "triggered",
-  "time": "10:05 AM",
-  "bar_start": "10:00",
-  "bar_index": 6,
-  "price": 38.74,
-  "level": 38.62,
+  "time": "10:15 AM",
+  "bar_start": "10:10",
+  "bar_index": 8,
+  "price": 35.33,
+  "level": 35.24,
   "interval": "5m",
   "opening_range": {
-    "high": 38.62,
-    "low": 37.56,
+    "high": 35.24,
+    "low": 33.93,
     "minutes": 15
   },
   "source": "yahoo",
-  "checked_at": "2026-11-24T15:12:47Z",
-  "reason": "the 10:00 bar closed above the range high"
+  "checked_at": "2026-11-24T15:20:17Z",
+  "reason": "the 10:10 bar closed above the range high"
 }

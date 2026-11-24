@@ -170,3 +170,15 @@
 2026-11-24 10:12:47    KDP: risk BLOCK: position: KDP would be $72.06, 75.6% of the $95.31 account, over your 75% cap
 2026-11-24 10:12:50    TSCO @ 38.89 stop 38.09 target 39.69 | sim avgR 0.105 (T 28% / S 18%) | history 36 fired, avgR -0.049
 2026-11-24 10:12:50    TSCO: skipped, no edge
+2026-11-24 10:20:10  scan: 149 hits, 5 fresh and affordable
+2026-11-24 10:20:12    VZ @ 47.13 stop 46.72 target 47.56 | sim avgR -0.086 (T 35% / S 44%) | history 34 fired, avgR -0.079
+2026-11-24 10:20:12    VZ: skipped, no edge
+2026-11-24 10:20:14    AAOI @ 40.65 stop 39.92 target 41.38 | sim avgR -0.109 (T 44% / S 55%) | history 31 fired, avgR -0.147
+2026-11-24 10:20:14    AAOI: skipped, no edge
+2026-11-24 10:20:15    CMCSA @ 25.23 stop 24.96 target 25.52 | sim avgR -0.004 (T 38% / S 40%) | history 33 fired, avgR 0.127
+2026-11-24 10:20:15    CMCSA: skipped, no edge
+2026-11-24 10:20:17    HPQ @ 28.64 stop 28.54 target 28.74 | sim avgR -0.055 (T 47% / S 53%) | history 34 fired, avgR -0.058
+2026-11-24 10:20:17    HPQ: skipped, no edge
+2026-11-24 10:20:19    NKE @ 35.25 stop 34.58 target 35.92 | sim avgR -0.063 (T 13% / S 18%) | history 28 fired, avgR 0.205
+2026-11-24 10:20:19    NKE: skipped, no edge
+2026-11-24 10:29:01  scan: 147 hits, 0 fresh and affordable
