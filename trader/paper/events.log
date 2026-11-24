@@ -131,3 +131,29 @@
 2026-11-23 15:58:19  day done. Cash $95.31
 2026-11-23 15:58:22  run end
 2026-11-24 09:33:57  run start. Cash $95.31, open: none
+2026-11-24 09:55:12  scan: 118 hits, 37 fresh and affordable
+2026-11-24 09:55:14    AGNC @ 8.01 stop 7.90 target 8.12 | sim avgR -0.252 (T 21% / S 44%) | history 23 fired, avgR -0.280
+2026-11-24 09:55:14    AGNC: skipped, no edge
+2026-11-24 09:55:16    B @ 34.09 stop 33.78 target 34.40 | sim avgR -0.071 (T 45% / S 52%) | history 31 fired, avgR -0.147
+2026-11-24 09:55:16    B: skipped, no edge
+2026-11-24 09:55:17    BAC @ 48.60 stop 48.15 target 49.05 | sim avgR -0.157 (T 32% / S 47%) | history 32 fired, avgR -0.236
+2026-11-24 09:55:17    BAC: skipped, no edge
+2026-11-24 09:55:19    BSX @ 43.15 stop 42.28 target 44.02 | sim avgR -0.059 (T 20% / S 25%) | history 29 fired, avgR 0.006
+2026-11-24 09:55:19    BSX: skipped, no edge
+2026-11-24 09:55:21    CART @ 57.46 stop 57.19 target 57.73 | sim avgR -0.114 (T 44% / S 56%) | history 32 fired, avgR -0.078
+2026-11-24 09:55:21    CART: skipped, no edge
+2026-11-24 09:55:22    CDE @ 11.42 stop 11.27 target 11.57 | sim avgR -0.103 (T 44% / S 54%) | history 30 fired, avgR 0.056
+2026-11-24 09:55:22    CDE: skipped, no edge
+2026-11-24 10:03:52  scan: 130 hits, 6 fresh and affordable
+2026-11-24 10:03:54    BP @ 43.08 stop 42.77 target 43.39 | sim avgR -0.098 (T 41% / S 51%) | history 37 fired, avgR -0.182
+2026-11-24 10:03:54    BP: skipped, no edge
+2026-11-24 10:03:56    CARR @ 52.56 stop 51.82 target 53.32 | sim avgR -0.009 (T 34% / S 36%) | history 34 fired, avgR 0.019
+2026-11-24 10:03:56    CARR: skipped, no edge
+2026-11-24 10:03:58    CPRT @ 32.48 stop 31.99 target 32.97 | sim avgR 0.140 (T 36% / S 23%) | history 32 fired, avgR 0.123
+2026-11-24 10:03:58    CPRT: skipped, target gain $0.96 does not cover 2x round-trip fees $0.70
+2026-11-24 10:04:00    F @ 11.82 stop 11.61 target 12.03 | sim avgR -0.163 (T 14% / S 29%) | history 23 fired, avgR -0.233
+2026-11-24 10:04:00    F: skipped, no edge
+2026-11-24 10:04:02    O @ 59.10 stop 58.53 target 59.67 | sim avgR -0.035 (T 20% / S 23%) | history 27 fired, avgR -0.064
+2026-11-24 10:04:02    O: skipped, no edge
+2026-11-24 10:04:06    PCG @ 14.19 stop 14.06 target 14.32 | sim avgR 0.108 (T 54% / S 43%) | history 36 fired, avgR 0.103
+2026-11-24 10:04:07    PCG: skipped, target gain $0.65 does not cover 2x round-trip fees $0.70
