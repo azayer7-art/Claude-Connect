@@ -197,3 +197,46 @@
 2026-11-24 15:58:11  day done. Cash $95.31
 2026-11-24 15:58:13  run end
 2026-11-25 09:33:43  run start. Cash $95.31, open: none
+2026-11-25 09:55:22  scan: 66 hits, 33 fresh and affordable
+2026-11-25 09:55:24    AMBA @ 34.77 stop 32.66 target 36.88 | sim avgR -0.031 (T 12% / S 10%) | history 39 fired, avgR -0.119
+2026-11-25 09:55:24    AMBA: skipped, no edge
+2026-11-25 09:55:26    APA @ 45.80 stop 45.10 target 46.50 | sim avgR 0.010 (T 39% / S 36%) | history 37 fired, avgR 0.171
+2026-11-25 09:55:26    APA: skipped, target gain $0.70 does not cover 2x round-trip fees $0.70
+2026-11-25 09:55:29    AR @ 36.16 stop 35.56 target 36.76 | sim avgR -0.000 (T 33% / S 29%) | history 32 fired, avgR 0.072
+2026-11-25 09:55:29    AR: skipped, no edge
+2026-11-25 09:55:32    BP @ 43.21 stop 42.82 target 43.60 | sim avgR -0.084 (T 37% / S 44%) | history 37 fired, avgR -0.182
+2026-11-25 09:55:32    BP: skipped, no edge
+2026-11-25 09:55:34    BTDR @ 2.88 stop 2.69 target 3.07 | sim avgR -0.151 (T 13% / S 24%) | history 28 fired, avgR 0.110
+2026-11-25 09:55:34    BTDR: skipped, no edge
+2026-11-25 09:55:37    CNQ @ 45.52 stop 44.82 target 46.22 | sim avgR -0.109 (T 19% / S 25%) | history 38 fired, avgR -0.063
+2026-11-25 09:55:37    CNQ: skipped, no edge
+2026-11-25 10:03:17  scan: 55 hits, 10 fresh and affordable
+2026-11-25 10:03:20    BKR @ 45.21 stop 44.73 target 45.69 | sim avgR -0.101 (T 41% / S 50%) | history 34 fired, avgR -0.081
+2026-11-25 10:03:20    BKR: skipped, no edge
+2026-11-25 10:03:21    CIFR @ 5.29 stop 5.04 target 5.56 | sim avgR -0.016 (T 32% / S 34%) | history 27 fired, avgR -0.076
+2026-11-25 10:03:21    CIFR: skipped, no edge
+2026-11-25 10:03:23    CORZ @ 10.56 stop 10.18 target 10.96 | sim avgR -0.012 (T 30% / S 33%) | history 33 fired, avgR 0.070
+2026-11-25 10:03:23    CORZ: skipped, no edge
+2026-11-25 10:03:25    HUT @ 45.58 stop 43.96 target 47.20 | sim avgR 0.005 (T 43% / S 42%) | history 29 fired, avgR -0.162
+2026-11-25 10:03:25    HUT: skipped, no edge
+2026-11-25 10:03:27    INFY @ 12.82 stop 12.67 target 12.99 | sim avgR 0.049 (T 38% / S 34%) | history 33 fired, avgR -0.028
+2026-11-25 10:03:27    INFY: skipped, no edge
+2026-11-25 10:03:29    SEI @ 55.15 stop 52.01 target 58.29 | sim avgR 0.014 (T 17% / S 15%) | history 35 fired, avgR -0.026
+2026-11-25 10:03:29    SEI: skipped, no edge
+2026-11-25 10:11:31  scan: 113 hits, 20 fresh and affordable
+2026-11-25 10:11:34    ASX @ 27.22 stop 26.99 target 27.45 | sim avgR -0.087 (T 46% / S 54%) | history 38 fired, avgR -0.070
+2026-11-25 10:11:34    ASX: skipped, no edge
+2026-11-25 10:11:36    AXTI @ 28.55 stop 28.42 target 28.68 | sim avgR -0.386 (T 31% / S 69%) | history 26 fired, avgR 0.041
+2026-11-25 10:11:36    AXTI: skipped, no edge
+2026-11-25 10:11:37    BAC @ 47.67 stop 47.33 target 48.03 | sim avgR -0.132 (T 39% / S 52%) | history 32 fired, avgR -0.236
+2026-11-25 10:11:37    BAC: skipped, no edge
+2026-11-25 10:11:39    CRWV @ 38.56 stop 38.48 target 38.64 | sim avgR -0.570 (T 22% / S 78%) | history 31 fired, avgR -0.009
+2026-11-25 10:11:39    CRWV: skipped, no edge
+2026-11-25 10:11:41    FCX @ 46.19 stop 45.74 target 46.64 | sim avgR -0.035 (T 47% / S 51%) | history 38 fired, avgR -0.069
+2026-11-25 10:11:41    FCX: skipped, no edge
+2026-11-25 10:11:43    HPE @ 38.94 stop 38.15 target 39.73 | sim avgR -0.066 (T 39% / S 45%) | history 27 fired, avgR -0.116
+2026-11-25 10:11:43    HPE: skipped, no edge
+2026-11-25 10:20:22  scan: 115 hits, 1 fresh and affordable
+2026-11-25 10:20:24    T @ 23.11 stop 23.03 target 23.19 | sim avgR 0.060 (T 53% / S 47%) | history 40 fired, avgR -0.209
+2026-11-25 10:20:24    T: skipped, no edge
+2026-11-25 10:28:38  scan: 116 hits, 0 fresh and affordable

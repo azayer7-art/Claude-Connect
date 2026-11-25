@@ -1,22 +1,22 @@
 {
   "created_by": "trader-entry",
-  "symbol": "NKE",
+  "symbol": "T",
   "setup": "orb",
   "side": "buy",
-  "date": "2026-11-24",
+  "date": "2026-11-25",
   "status": "triggered",
   "time": "10:15 AM",
   "bar_start": "10:10",
   "bar_index": 8,
-  "price": 35.33,
-  "level": 35.24,
+  "price": 23.18,
+  "level": 23.17,
   "interval": "5m",
   "opening_range": {
-    "high": 35.24,
-    "low": 33.93,
+    "high": 23.17,
+    "low": 22.89,
     "minutes": 15
   },
   "source": "yahoo",
-  "checked_at": "2026-11-24T15:20:17Z",
+  "checked_at": "2026-11-25T15:20:22Z",
   "reason": "the 10:10 bar closed above the range high"
 }
