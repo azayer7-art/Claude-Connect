@@ -9,3 +9,5 @@ date,time,symbol,side,qty,price,instruction_id
 2026-11-24,10:15,SPYM,BUY-DRAFT,2,84.80,103
 2026-11-24,10:17,SPYM,BUY-FILLED,2,84.73 (avg incl. fees; position avg 85.5373),103
 2026-11-24,10:17,VXUS,BUY-FILLED,1,78.1855 (avg cost incl. fees),102
+2026-11-25,19:26,SPYM,BUY-DRAFT,4,85.10,100
+2026-11-25,19:26,VXUS,BUY-DRAFT,2,78.55,101
