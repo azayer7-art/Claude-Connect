@@ -262,3 +262,66 @@
 2026-11-26 14:33:53  market closed now, nothing to do
 2026-11-26 15:34:06  market closed now, nothing to do
 2026-11-27 09:33:42  run start. Cash $95.31, open: none
+2026-11-27 09:55:32  scan: 65 hits, 19 fresh and affordable
+2026-11-27 09:55:34    ATAT @ 41.14 stop 40.24 target 42.04 | sim avgR 0.092 (T 14% / S 10%) | history 18 fired, avgR 0.203
+2026-11-27 09:55:34    ATAT: risk BLOCK: window: no new entries after 07:30 New York (it is 09:55)
+2026-11-27 09:55:36    BOX @ 47.50 stop 46.74 target 48.26 | sim avgR 0.077 (T 22% / S 16%) | history 34 fired, avgR 0.212
+2026-11-27 09:55:36    BOX: risk BLOCK: window: no new entries after 07:30 New York (it is 09:55)
+2026-11-27 09:55:38    CMCSA @ 25.96 stop 25.87 target 26.07 | sim avgR 0.091 (T 55% / S 45%) | history 31 fired, avgR 0.170
+2026-11-27 09:55:38    CMCSA: risk BLOCK: window: no new entries after 07:30 New York (it is 09:55)
+2026-11-27 09:55:39    CNH @ 12.05 stop 11.90 target 12.22 | sim avgR 0.005 (T 44% / S 43%) | history 29 fired, avgR 0.112
+2026-11-27 09:55:40    CNH: risk BLOCK: position: CNH would be $72.36, 75.9% of the $95.31 account, over your 75% cap; window: no new entries after 07:30 New York (it is 09:55)
+2026-11-27 09:55:41    CPB @ 24.30 stop 24.08 target 24.54 | sim avgR 0.036 (T 46% / S 43%) | history 28 fired, avgR -0.015
+2026-11-27 09:55:41    CPB: skipped, no edge
+2026-11-27 09:55:43    ERAS @ 16.92 stop 16.42 target 17.42 | sim avgR -0.037 (T 36% / S 39%) | history 34 fired, avgR -0.121
+2026-11-27 09:55:43    ERAS: skipped, no edge
+2026-11-27 10:03:00  scan: 81 hits, 13 fresh and affordable
+2026-11-27 10:03:01    APA @ 46.42 stop 46.32 target 46.52 | sim avgR -0.129 (T 44% / S 56%) | history 36 fired, avgR 0.145
+2026-11-27 10:03:01    APA: skipped, no edge
+2026-11-27 10:03:03    DVN @ 43.23 stop 43.12 target 43.34 | sim avgR -0.022 (T 49% / S 51%) | history 32 fired, avgR 0.151
+2026-11-27 10:03:03    DVN: skipped, no edge
+2026-11-27 10:03:03    EQNR: no plan at 39.04 (exit.py: the stop $39.14 (opening-range midpoint) is at or above the entry $39.04: a long's stop goes under the entry)
+2026-11-27 10:03:05    HAL @ 32.48 stop 32.23 target 32.73 | sim avgR -0.004 (T 48% / S 48%) | history 32 fired, avgR -0.025
+2026-11-27 10:03:05    HAL: skipped, no edge
+2026-11-27 10:03:06    KSS @ 27.70 stop 27.11 target 28.29 | sim avgR 0.039 (T 32% / S 28%) | history 29 fired, avgR 0.114
+2026-11-27 10:03:06    KSS: risk BLOCK: window: no new entries after 07:30 New York (it is 10:03)
+2026-11-27 10:03:07    MT: no plan at 58.90 (exit.py: the stop is $0.02 under the entry, less than 0.05% of the price ($0.03 on $58.90): too tight to survive the spread, normal wiggle would stop you out. Widen it.)
+2026-11-27 10:11:46  scan: 84 hits, 7 fresh and affordable
+2026-11-27 10:11:48    IP @ 33.77 stop 32.44 target 35.10 | sim avgR -0.006 (T 1% / S 1%) | history 26 fired, avgR -0.194
+2026-11-27 10:11:48    IP: skipped, no edge
+2026-11-27 10:11:49    LYFT @ 17.72 stop 17.27 target 18.17 | sim avgR 0.030 (T 12% / S 10%) | history 30 fired, avgR 0.066
+2026-11-27 10:11:49    LYFT: risk BLOCK: window: no new entries after 07:30 New York (it is 10:11)
+2026-11-27 10:11:50    DKNG @ 17.96 stop 17.85 target 18.07 | sim avgR 0.050 (T 53% / S 47%) | history 25 fired, avgR 0.111
+2026-11-27 10:11:50    DKNG: risk BLOCK: position: DKNG would be $71.84, 75.4% of the $95.31 account, over your 75% cap; window: no new entries after 07:30 New York (it is 10:11)
+2026-11-27 10:11:51    FIG @ 17.98 stop 17.61 target 18.35 | sim avgR -0.055 (T 29% / S 35%) | history 28 fired, avgR -0.023
+2026-11-27 10:11:51    FIG: skipped, no edge
+2026-11-27 10:11:53    G @ 44.70 stop 44.31 target 45.09 | sim avgR -0.042 (T 37% / S 42%) | history 27 fired, avgR -0.004
+2026-11-27 10:11:53    G: skipped, no edge
+2026-11-27 10:11:55    PATH @ 12.84 stop 12.65 target 13.03 | sim avgR 0.009 (T 41% / S 40%) | history 29 fired, avgR -0.068
+2026-11-27 10:11:55    PATH: skipped, no edge
+2026-11-27 10:19:53  scan: 89 hits, 11 fresh and affordable
+2026-11-27 10:19:55    BTG @ 4.74 stop 4.68 target 4.80 | sim avgR 0.017 (T 41% / S 40%) | history 31 fired, avgR -0.009
+2026-11-27 10:19:55    BTG: skipped, no edge
+2026-11-27 10:19:56    EQT @ 52.23 stop 51.92 target 52.54 | sim avgR -0.050 (T 46% / S 51%) | history 30 fired, avgR -0.002
+2026-11-27 10:19:56    EQT: skipped, no edge
+2026-11-27 10:19:58    MDLN @ 41.04 stop 40.73 target 41.35 | sim avgR -0.028 (T 48% / S 50%) | history 29 fired, avgR 0.033
+2026-11-27 10:19:58    MDLN: skipped, no edge
+2026-11-27 10:19:59    NVO @ 41.03 stop 40.77 target 41.29 | sim avgR -0.005 (T 40% / S 41%) | history 29 fired, avgR 0.016
+2026-11-27 10:19:59    NVO: skipped, no edge
+2026-11-27 10:20:01    SNY @ 53.52 stop 53.30 target 53.76 | sim avgR -0.012 (T 45% / S 47%) | history 30 fired, avgR 0.173
+2026-11-27 10:20:01    SNY: skipped, no edge
+2026-11-27 10:20:03    TME @ 10.16 stop 9.93 target 10.39 | sim avgR 0.004 (T 3% / S 2%) | history 23 fired, avgR 0.136
+2026-11-27 10:20:03    TME: risk BLOCK: window: no new entries after 07:30 New York (it is 10:20)
+2026-11-27 10:27:49  scan: 97 hits, 8 fresh and affordable
+2026-11-27 10:27:50    HPQ @ 31.88 stop 30.74 target 33.02 | sim avgR -0.019 (T 1% / S 2%) | history 28 fired, avgR -0.098
+2026-11-27 10:27:50    HPQ: skipped, no edge
+2026-11-27 10:27:52    IONQ @ 24.98 stop 24.55 target 25.43 | sim avgR -0.109 (T 39% / S 49%) | history 23 fired, avgR 0.021
+2026-11-27 10:27:52    IONQ: skipped, no edge
+2026-11-27 10:27:53    NKE @ 37.25 stop 36.82 target 37.68 | sim avgR 0.036 (T 27% / S 24%) | history 27 fired, avgR 0.362
+2026-11-27 10:27:53    NKE: risk BLOCK: position: NKE would be $74.50, 78.2% of the $95.31 account, over your 75% cap; window: no new entries after 07:30 New York (it is 10:27)
+2026-11-27 10:27:54    QBTS @ 7.51 stop 7.28 target 7.76 | sim avgR -0.126 (T 13% / S 22%) | history 19 fired, avgR 0.080
+2026-11-27 10:27:54    QBTS: skipped, no edge
+2026-11-27 10:27:56    RGTI @ 8.31 stop 8.12 target 8.50 | sim avgR -0.122 (T 28% / S 39%) | history 23 fired, avgR -0.128
+2026-11-27 10:27:56    RGTI: skipped, no edge
+2026-11-27 10:27:57    RBLX @ 58.39 stop 57.29 target 59.49 | sim avgR 0.101 (T 35% / S 26%) | history 31 fired, avgR 0.106
+2026-11-27 10:27:57    RBLX: risk BLOCK: window: no new entries after 07:30 New York (it is 10:27)
